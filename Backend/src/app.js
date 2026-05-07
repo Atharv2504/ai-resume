@@ -13,7 +13,7 @@ app.use(cookieParser());
 
 
 const corsOptions = {
-    origin: process.env.ALLOWED_SITE.split(',').map(site => site.trim()),
+    origin: process.env.ALLOWED_SITE ? process.env.ALLOWED_SITE.split(',').map(site => site.trim()) : ['http://localhost:5173', 'https://vercel.app'],
     credentials: true
 };
 
