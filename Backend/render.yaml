@@ -10,4 +10,3 @@ services:
         value: production
       - key: PORT
         value: 5001
-    healthCheckPath: /api/users/start
