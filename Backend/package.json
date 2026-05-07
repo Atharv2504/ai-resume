@@ -1,13 +1,12 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "src/app.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "build": "echo 'Backend build complete'",
-    "install": "npm install"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "build": "echo 'Backend build complete'"
   },
   "keywords": [],
   "author": "",
